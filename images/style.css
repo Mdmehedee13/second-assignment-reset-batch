@@ -294,19 +294,15 @@ span{
 /* habit section end */
 
 
-
-
-
 /* run section start */
 .run-section{
     display: flex;
-    gap: 30px;
     margin-top: 120px;
     margin-left: 140px;
     margin-right: 140px;
     border-radius: 18px;
-    background: rgb(34, 34, 34);
-    padding: 50px;
+
+background: rgb(34, 34, 34);
 }
 .run-image img{
     width: 366px;
@@ -624,10 +620,6 @@ footer{
         top: 27px;
     }
 
-    #menu-icon{
-        left: 750px;
-    }
-
     .banner-section{
         display: flex;
         flex-direction: column;
@@ -664,66 +656,71 @@ footer{
 
     .banner-image{
         margin-top: 70px;
-
-    }
-
-    .banner-image img{
-        width: 450px;
-        height: 700px;
-    }
-
-    .habit-section{
-        margin-right: -400px;
-    }
-    .habit-section .habit-text{
-        text-align: center;
-        margin-left: 70px;
         
     }
 
-    .habit-card{
+    #menu-icon{
+        left: 750px;
+    }
+    .habit-card, 
+    .run-section, 
+    .bmi-main,
+    .box-main, 
+    .footer-main{
+        
         flex-direction: column;
-        gap: 50px;
     }
 
-    .card{
-        margin-left: 50px;
+    .footer-line{
+        width: 500px;
     }
 
-    .run-section{
-        flex-direction: column;
-        padding-right: 30px;
-        margin-right: -480px;
+    .team-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-main{
+        padding-left: 90px;
 
     }
 
-    .run-text{
-        margin-left: 80px;
-    }
-    .run-image img{
-        width: fit-content;
-        margin-left: 80px;
+    .image-des-one{
+        top: 5400px;
     }
 
-
-    .bmi-main{
-        flex-direction: column;
-        margin-right: -625px;
+    .image-des-two{
+        top: 5700px;
+        left: 170px;
     }
 
-    .bmi-text{
-        margin-right: -520px;
+    .image-des-three{
+        top: 6000px;
+        left: 170px;
     }
 
-    .bmi-chart{
-        margin-left: 320px;
-        margin-bottom: 200px;
-        width: 310px;
-        height: 216px;
+    .image-des-four{
+        top: 6300px;
+        left: 170px;
     }
-    .bmi-calculator{
-        margin-left: 290px;
+
+    .image-des-five{
+        top: 6600px;
+        left: 170px;
     }
-  
+
+    .image-des-six{
+        top: 6900px;
+        left: 170px;
+    }
+
+    .dropdown-icon{
+        top: 4700px;
+        left: 600px;
+    }
+
+    .dropdown-icon-two{
+        top: 4780px;
+        left: 600px;
+    }
 
 }
